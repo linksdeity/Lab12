@@ -88,9 +88,9 @@ namespace GrandCircusLab12
         
 
         public static char GetAnyCaseChar(string message, char[] lowerCase, char[] upperCase)
-        {
-            //verify a requested letter key is pressed, regardless of case - from a list of options
-            //returns pressed key in lower case if in list, otherwise returns '0'
+        {   //overload
+            //verify a requested letter key is pressed, regardless of case - from a list of ochar letters
+            //returns pressed key in lower case
             while (true)
             {
                 Console.WriteLine(message);

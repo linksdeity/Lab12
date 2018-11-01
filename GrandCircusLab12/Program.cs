@@ -11,25 +11,6 @@ namespace GrandCircusLab12
         static void Main(string[] args)
         {
 
-            /*
-            The application prints the student name and their scores alphabetically by
-             last name.
-              
-            Override the ToString method that is coming from the Object class. Each
-            class will use the ToString method to print the values of its properties. For instance,
-            the Person class, the ToString method will print the name and the address.
-
-            The program should use a List to store Student objects. It should sort the
-            list prior to printing the student list.
-
-            Allow the user to add students and Archived students. Validate user input
-            so that the last and first names follow regular convention and so that the score is an
-            integer between 0 and 100
-
-            Add the ability to store the list by score.
-            */
-
-
             Console.WriteLine("Welcome to the student list!");
 
             StudentList newList = new StudentList();

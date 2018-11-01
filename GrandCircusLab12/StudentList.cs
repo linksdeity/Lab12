@@ -52,7 +52,7 @@ namespace GrandCircusLab12
         {
             Console.WriteLine("\n--- adding STUDENT ---\n");
             string name = Validator.GetString("Please enter a first name in Title Case", @"^[A-Z][a-z]+$");
-            string lastName = Validator.GetString("Please enter a first name in Title Case", @"^[A-Z][a-z]+$");
+            string lastName = Validator.GetString("Please enter a last name in Title Case", @"^[A-Z][a-z]+$");
             string address = Validator.GetString("Please enter an address in Title Case, space, and then a 2-3 letter abbreviation followed by '.'\n" +
                                             "EX: '123 Stonehoof Dr.'   or    '2134 Moon Ave.'\n", @"^[0-9]+(\s[A-Z][a-z]+)+\s[A-Z][a-z]{1,2}[.]$");
             string program = Validator.GetString("Please enter the program name in Title Case", @"^([A-Z][a-z]+\s*)+$");
@@ -70,7 +70,7 @@ namespace GrandCircusLab12
         {
             Console.WriteLine("\n--- adding ARCHIVED STUDENT ---\n");
             string name = Validator.GetString("Please enter a first name in Title Case", @"^[A-Z][a-z]+$");
-            string lastName = Validator.GetString("Please enter a first name in Title Case", @"^[A-Z][a-z]+$");
+            string lastName = Validator.GetString("Please enter a last name in Title Case", @"^[A-Z][a-z]+$");
             string address = Validator.GetString("Please enter an address in Title Case, space, and then a 2-3 letter abbreviation followed by '.'\n" +
                                             "EX: '123 Stonehoof Dr.'   or    '2134 Moon Ave.'\n", @"^[0-9]+(\s[A-Z][a-z]+)+\s[A-Z][a-z]{1,2}[.]$");
             string program = Validator.GetString("Please enter the program name in Title Case", @"^([A-Z][a-z]+\s*)+$");
