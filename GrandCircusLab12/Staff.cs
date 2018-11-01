@@ -11,7 +11,7 @@ namespace GrandCircusLab12
         protected string School;
         protected double Pay;
 
-        public Staff (string name, string address, string school, double pay) : base (name, address)
+        public Staff (string name, string address, string lastName, string school, double pay) : base (name, address, lastName)
         {
             School = school;
             Pay = pay;
@@ -20,7 +20,7 @@ namespace GrandCircusLab12
         public override string ToString()
         {
             string toString = "";
-            toString += ("\nName: " + Name + "\nAddress: " + Address + "\nSchool: " + School + "\nPay: " + Pay);
+            toString += ("\nName: " + Name + " " + LastName + "\nAddress: " + Address + "\nSchool: " + School + "\nPay: " + Pay);
             return toString;
         }
 

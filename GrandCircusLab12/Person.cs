@@ -6,22 +6,24 @@ using System.Threading.Tasks;
 
 namespace GrandCircusLab12
 {
-    class Person
+    abstract class Person
     {
+        public string LastName { get; set; }
 
-        protected string Name;
-        protected string Address;
+        public string Name;
+        public string Address;
 
-        public Person(string name, string address)
+        public Person(string name, string address, string lastName)
         {
             Name = name;
             Address = address;
+            LastName = lastName;
         }
 
         public override string ToString()
         {
             string toString = "";
-            toString += ("\nName: " + Name + "\nAddress: " + Address);
+            toString += ("\nName: " + Name + " " + LastName + "\nAddress: " + Address);
             return toString;
         }
 
